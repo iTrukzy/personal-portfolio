@@ -24,6 +24,27 @@ h2 {
     right: 1rem;
     top: 1rem;
     font-size: 2rem;
+    z-index: 1;
+}
+.movil-nav {
+    cursor: pointer;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    opacity: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: green;
+    z-index: 1;
+    transition: right .3s ease-in-out;
+    
+}
+.movil-nav ul li {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.show {
+    opacity: 1;
 }
 
 .portfolio {
